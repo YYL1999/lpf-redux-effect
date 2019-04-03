@@ -3,7 +3,7 @@
 ## 📦install
 
 ```
-npm i -s redux-effect
+npm i -s redux_effect
 
 // or
 yarn add redux-effect
@@ -14,7 +14,7 @@ yarn add redux-effect
 
 ```Javascript
 import { createStore, applyMiddleware, combineReducers } from 'redux';
-import { reduxReduers, reduxEffects } from 'redux-effect';
+import { reduxReduers, reduxEffects } from 'redux_effect';
 
 const models = [ test1, test2, ...];
 
@@ -34,7 +34,7 @@ const store = createStore(
 
 ## ⌨️model
 
-在redux-effect中，没有action的概念，也不需要定义action type。
+在redux_effect中，没有action的概念，也不需要定义action type。
 
 所有关于某个state的一切声明在一个model中，本质就是一个对象。
 
