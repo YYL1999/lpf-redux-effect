@@ -1,7 +1,7 @@
 {
   "name": "redux-effect",
-  "version": "0.5.6",
-  "description": "Elegant redux state manager",
+  "version": "0.1.1",
+  "description": "Redux 中间件",
   "main": "dist/bundle.js",
   "scripts": {
     "dev": "rollup -c --watch",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liumin1128/redux-effect.git"
+    "url": "git+https://github.com/YYL1999/redux-effect.git"
   },
   "keywords": [
     "redux",
     "effect",
     "store"
   ],
-  "author": "liumin",
-  "license": "ISC",
+  "author": "lpf",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liumin1128/redux-effect/issues"
+    "url": "https://github.com/YYL1999/redux-effect/issues"
   },
-  "homepage": "https://github.com/liumin1128/redux-effect#readme"
+  "homepage": "https://github.com/YYL1999/redux-effect#readme"
 }
