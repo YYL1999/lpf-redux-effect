@@ -25,7 +25,7 @@ export const reduxEffects = models => store => next => async (action) => {
   }
 };
 
-// 格式化effects，输入任意数量models，返回effects中间件
+// 格式化effects，输入任意数量models，返回effects中间件 
 export const reduxEffectsWidthLoading = models => store => next => async (action) => {
   next(action);
   const [key, type] = action.type.split('/');
