@@ -1,5 +1,5 @@
 {
-  "name": "redux_effect",
+  "name": "lpf-redux-effect",
   "version": "0.1.1",
   "description": "Redux 中间件",
   "main": "dist/bundle.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YYL1999/redux_effect.git"
+    "url": "git+https://github.com/YYL1999/lpf-redux-effect.git"
   },
   "keywords": [
     "redux",
@@ -19,7 +19,7 @@
   "author": "lpf",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YYL1999/redux_effect/issues"
+    "url": "https://github.com/YYL1999/lpf-redux-effect/issues"
   },
-  "homepage": "https://github.com/YYL1999/redux_effect#readme"
+  "homepage": "https://github.com/YYL1999/lpf-redux-effect#readme"
 }

@@ -3,10 +3,10 @@
 ## 📦install
 
 ```
-npm i -s redux_effect
+npm i -s lpf-redux-effect
 
 // or
-yarn add redux-effect
+yarn add lpf-redux-effect
 ```
 
 ## 🔨use
@@ -14,7 +14,7 @@ yarn add redux-effect
 
 ```Javascript
 import { createStore, applyMiddleware, combineReducers } from 'redux';
-import { reduxReduers, reduxEffects } from 'redux_effect';
+import { reduxReduers, reduxEffects } from 'lpf-redux-effect';
 
 const models = [ test1, test2, ...];
 
@@ -34,7 +34,7 @@ const store = createStore(
 
 ## ⌨️model
 
-在redux_effect中，没有action的概念，也不需要定义action type。
+在lpf-redux-effect中，没有action的概念，也不需要定义action type。
 
 所有关于某个state的一切声明在一个model中，本质就是一个对象。
 

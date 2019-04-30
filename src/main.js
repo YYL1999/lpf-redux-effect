@@ -1,5 +1,5 @@
 // 格式化reducers，输入任意数量models，返回标准reducers对象
-export const reduxReduers = (models) => {
+export const  reduxReduers = (models) => {
   const reducers = {};
   models.map((model) => {
     reducers[model.namespace] = (state, action) => {
