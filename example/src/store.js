@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
- import { reduxReduers, reduxEffects } from '../node_modules/lpf-redux-effect/src/main';
+import { reduxReduers, reduxEffects } from 'lpf-redux-effect';
 
 export const sleep = (timer = 1000) => new Promise(resolve => setTimeout(resolve, timer));
 
